@@ -1,4 +1,5 @@
 import logo from "../images/logo.svg"
+import PageLinks from './PageLinks'
 
 
 
@@ -13,28 +14,7 @@ const Navbar = () => {
               <i classname="fas fa-bars" />
             </button>
           </div>
-          <ul classname="nav-links" id="nav-links">
-            <li>
-              <a href="#home" classname="nav-link">
-                home
-              </a>
-            </li>
-            <li>
-              <a href="#about" classname="nav-link">
-                about
-              </a>
-            </li>
-            <li>
-              <a href="#services" classname="nav-link">
-                services
-              </a>
-            </li>
-            <li>
-              <a href="#tours" classname="nav-link">
-                tours
-              </a>
-            </li>
-          </ul>
+          <PageLinks parentClass='nav-links' itemClass='nav-link' />
           <ul classname="nav-icons">
             <li>
               <a

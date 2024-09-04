@@ -1,7 +1,5 @@
 import styles from '../Hero.module.css'; // Import the CSS module
 
-
-
 function Hero() {
   return (
     <div>
